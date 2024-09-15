@@ -1,0 +1,8 @@
+@use "variables" as *;
+.home-container {
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+}

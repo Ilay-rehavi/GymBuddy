@@ -1,0 +1,46 @@
+@use "variables" as *;
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  background-color: $darkBlue;
+}
+
+.workout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  background-color: $black;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px $lightGrey;
+  border: 2px solid $lightGrey;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid $lightGrey;
+  border-radius: 0.5rem;
+  background-color: $lightGrey;
+  color: $black;
+}
+
+.form-button {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: $lightBlue;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $darkBlue;
+  }
+}

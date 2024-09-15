@@ -1,0 +1,12 @@
+@use "variables" as *;
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $black;
+  width: 90%;
+  border-radius: 1rem;
+  border: 2px solid $lightGrey;
+  box-shadow: 5px 5px 10px $lightGrey;
+}

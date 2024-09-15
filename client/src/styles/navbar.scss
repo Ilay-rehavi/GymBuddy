@@ -1,0 +1,17 @@
+@use "variables" as *;
+
+.navbar-container {
+  display: flex;
+  background-color: $darkGrey;
+  color: $lightGrey;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  .nav-link {
+    text-decoration: none;
+    padding-left: 1rem;
+  }
+  .nav-link:visited {
+    color: $lightGrey;
+  }
+}
